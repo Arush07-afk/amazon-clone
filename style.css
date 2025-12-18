@@ -113,11 +113,21 @@ body{
     margin: 10px 10px;
 }
 
-.g1 img, .g2 img, .g3 img, .g4 img, .g5 img, .g6 img, .g7 img, .g8 img, .g9 img, .g10 img{
-    
+.g1 img, .g2 img, .g5 img, .g7 img, .g9 img{
+    width: 400px;
+    height: 500px;
     padding: 10px 10px;
 }
-.g1 img:hover , .g2 img:hover , .g3 img:hover, .g4 img:hover, .g5 img:hover, .g6 img:hover, .g7 img:hover, .g8 img:hover, .g9 img:hover, .g10 img:hover{
+.g1 img:hover , .g2 img:hover .g5 img:hover, .g7 img:hover, .g9 img:hover{
+    transform: scale(1.06);
+    transition: transform 0.3s;
+}
+.g3 img, .g4 img, .g6 img, .g8 img, .g10 img{
+    width: 99%;
+    height: auto;
+    padding: 10px 10px;
+}
+.g3 img:hover , .g4 img:hover .g6 img:hover, .g8 img:hover, .g10 img:hover{
     transform: scale(1.06);
     transition: transform 0.3s;
 }
